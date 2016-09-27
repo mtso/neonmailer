@@ -4,11 +4,13 @@
   "description": "neonmob mailer",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "DEBUG='horseman*' node app.js",
+    "z": "node zombie.js"
   },
   "author": "mtso",
   "license": "ISC",
   "dependencies": {
-    "phantomjs": "^2.1.7"
+    "node-horseman": "^3.1.1"
   }
 }
